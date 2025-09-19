@@ -1,0 +1,143 @@
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* Body + background */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #514a4a6b;
+  background-image: url("images/background.png");
+}
+
+/* Titles */
+.titles {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Profile section (centered at top) */
+.profile {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.facecard {
+  border: 2px solid black;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 75px;
+  cursor: pointer;
+}
+
+/* Info row (3 boxes evenly spaced) */
+.info-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+
+.about-me,
+.contact-me,
+.extra {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(141, 142, 143);
+  text-align: left;
+  font-weight: bold;
+}
+
+.contact-me h3,
+.about-me h3,
+.extra h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Experience page row */
+.experience-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+
+/* Each job box */
+.experience-box {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(141, 142, 143);
+  text-align: left;
+  font-weight: bold;
+}
+
+.experience-box h3 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Journey page row */
+.journey-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+
+/* Each journey box */
+.journey-box {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(141, 142, 143);
+  text-align: left;
+  font-weight: bold;
+}
+
+.journey-box h3 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.journey-photo {
+  width: 100%;
+  height: auto;
+}

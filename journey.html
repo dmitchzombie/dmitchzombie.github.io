@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Journey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="journey.html">My Journey</a>
+      <a href="experience.html">Experience</a>
+    </nav>
+
+    <div class="titles">
+      <h1>My Journey</h1>
+      <h2>2005 – Present</h2>
+    </div>
+
+    <div class="journey-row">
+      <div class="journey-box" id="step1">
+        <h3>Wisconsin</h3>
+        <p>
+          I was born in Wisconsin, where I spent my earliest years surrounded by
+          cold winters, family traditions, and the values that shaped my
+          character. This foundation gave me resilience and a strong sense of
+          community.
+        </p>
+        <img src="images/coldman.webp" alt="Cold Man" class="journey-photo" />
+        <button class="nav-btn" onclick="prevStep()">Go Back</button>
+        <button class="nav-btn" onclick="nextStep()">Go Next</button>
+      </div>
+
+      <div class="journey-box" id="step2" style="display: none">
+        <h3>Georgia</h3>
+        <p>
+          Moving to Georgia opened a new chapter filled with opportunities and
+          growth. Here, I built lasting friendships, developed a love for
+          technology, and embraced the challenges that came with change and
+          adaptation.
+        </p>
+        <img src="images/beachman.webp" alt="Beach Man" class="journey-photo" />
+        <button class="nav-btn" onclick="prevStep()">Go Back</button>
+        <button class="nav-btn" onclick="nextStep()">Go Next</button>
+      </div>
+
+      <div class="journey-box" id="step3" style="display: none">
+        <h3>Berry College</h3>
+        <p>
+          Today, I study Computer Science with a minor in Business at Berry
+          College in Rome, Georgia. This phase of my journey has been about
+          discovery, learning, and laying the groundwork for a future in
+          technology and beyond.
+        </p>
+        <img
+          src="images/berry.webp"
+          alt="Berry College"
+          class="journey-photo"
+        />
+        <button class="nav-btn" onclick="prevStep()">Go Back</button>
+        <button class="nav-btn" onclick="nextStep()">Go Next</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
